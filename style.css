@@ -1,0 +1,463 @@
+nav{
+   
+    top: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+nav ul li {
+    list-style: none;
+    margin: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+    padding: 20px;
+
+}
+nav ul{
+    display: flex;
+    margin-left: 300px;
+    padding: 0px;
+    
+    
+   
+}
+#home{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    
+    
+   background-image: url(https://www.hindustantimes.com/ht-img/img/2023/12/04/1600x900/Mark_Zuckerberg_1701706135418_1701706135636.JPG);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+#ma{
+    color:white;
+    text-shadow: 20px;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+#zu{
+    color:white;
+    text-shadow: 20px;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.abt{
+    display: flex;
+    justify-content:space-between;
+   
+}
+#about{
+    
+    padding: 10px;
+    text-align: center;
+}
+.col{
+    width: 50%;
+    height: 500px;
+    text-align:justify;
+    padding: 30px;
+    border: 2px solid black;
+    display: flex;
+    
+    
+}
+body{
+    background-image: linear-gradient(180deg,#355566,white);
+}
+.abt img{
+    width:100%;
+}
+
+.form{
+    text-align: justify;
+    text-align: center;
+    
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 80px;
+    background-color: slategray;
+    margin: 20px;
+    margin-top: 50px;
+    
+    
+}
+.block1
+{
+    padding: 10px;
+    width: 200px;
+    height: 1400px;
+    background-color: #355566;
+    position: sticky;
+    margin: 10px;
+
+}
+.block1 .col-1 a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.main_block{
+    display: flex;
+    
+}
+.block2{
+    margin: 10px;
+    
+    
+    height: 500px;
+}
+.block2 h1{
+    text-align: center;
+    font-size: 50px;
+}
+.block2 ul li{
+    margin: 10px;
+}
+.best{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.seconcol{
+    margin-top: 400px;
+}
+
+.thirdcol{
+
+    margin-top: 500px;
+}
+.topics{
+    border: 2px solid black;
+    padding: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.social{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    
+    padding: 20px;
+}
+.insta{
+    background-image: linear-gradient(to  right purple,white);
+    border: 2px solid black;
+    margin: 10px;
+    overflow: scroll;
+
+    
+}
+.whats{
+    background-image: linear-gradient(to  right purple,white);
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: end;
+}
+.insta:hover{
+    background-image: linear-gradient(to bottom right,rgb(201, 41, 140),white);
+    box-shadow: 5px 4px 6px black;
+}
+.whats:hover{
+    background-image: linear-gradient(to bottom right,green,white);
+    box-shadow: 5px 4px 6px black;
+}
+.relatetop{
+    display: flex;
+    justify-content: center;
+    
+}
+.elon{
+    border: 2px solid black;
+    background-color: #355566;
+    color: aliceblue;
+    width: 200px;
+    height: 
+    300px;
+    padding: 20px;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.click{
+    margin-top: 150px;
+   margin-left: 50px;
+}
+
+
+
+/* mediaquery */
+
+@media screen and (max-width:600px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    nav{
+        width: 400px;
+        
+        
+    }
+    nav ul li{
+        width: 400px;
+       
+    }
+    nav ul li a{
+        width: 400px;
+        
+        font-size: 10px;
+        padding: 10px;
+    }
+    #home{
+        width: 100%;
+        height: 250px;
+        padding: 0px;
+        object-fit: contain;
+        content: "";
+        background: url(https://www.hindustantimes.com/ht-img/img/2023/12/04/1600x900/Mark_Zuckerberg_1701706135418_1701706135636.JPG);
+        background-size: 400px;
+        
+        background-repeat: no-repeat;
+        
+
+
+    }
+    nav ul{
+        display: flex;
+        margin-left: 30px;
+        width: 200px;
+        padding: 0px;
+    }
+
+    #ma{
+        color:white;
+        text-shadow: 20px;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    #zu{
+        color:white;
+        text-shadow: 20px;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .abt{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+       
+    }
+    #about{
+        margin-top: 0px;
+        padding:10px;
+        text-align: center;
+    }
+    .col{
+        width:300px;
+        padding: 10px;
+        border: 2px solid black;
+        display: flex;
+        overflow: scroll;
+        
+        
+    }
+    body{
+        background-image: linear-gradient(180deg,#355566,white);
+    }
+    .abt img{
+        width:100%;
+    }
+    
+    .form{
+        text-align: justify;
+        text-align: center;
+        
+    }
+    
+    nav ul li a:hover{
+        background-color: white;
+        color: black;
+        
+    }
+    .col-1{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 80px;
+        background-color: slategray;
+        margin: 20px;
+        margin-top: 50px;
+        
+        
+    }
+    .block1
+    {
+        padding: 10px;
+        width: 80px;
+        height:2300px;
+        background-color: #355566;
+        position: sticky;
+       
+       
+    
+    }
+    
+    .block1 .col-1 a{
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .main_block{
+        width: 400px;
+        display: flex;
+        
+    }
+    .block2{
+        
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 500px;
+    }
+    .block2 h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .block2 ul li{
+        margin: 10px;
+    }
+    .best{
+        border-width: 10px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    .firstcol{
+        width: 50px;
+        font-size: 10px;
+        
+    }
+    .firstcol a{
+       padding: 0px;
+    }
+    
+    .seconcol{
+        width: 60px;
+        margin-top: 400px;
+        font-size: 10px;
+    }
+    .seconcol a{
+        padding: 5px;
+    }
+    
+    .thirdcol{
+    
+        width: 50px;
+        margin-top: 500px;
+        font-size: 10px;
+    }
+    .topics{
+        border: 2px solid black;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 155px;
+    }
+    
+    .social{
+        
+       
+        display: flex;
+        
+        
+        
+    }
+    .insta{
+        width: 100px;
+        height: 200px;
+        background-image: linear-gradient(to  right purple,white);
+        border: 2px solid black;
+        margin-left: 0px;
+        font-size: 10px;
+        
+        
+        overflow: scroll;
+    
+        
+    }
+    .whats{
+        width: 100px;
+        background-image: linear-gradient(to  right purple,white);
+        border: 2px solid black;
+        font-size: 10px;
+        
+        
+    }
+    .insta:hover{
+        background-image: linear-gradient(to bottom right,rgb(201, 41, 140),white);
+        box-shadow: 5px 4px 6px black;
+    }
+    .whats:hover{
+        background-image: linear-gradient(to bottom right,green,white);
+        box-shadow: 5px 4px 6px black;
+        overflow: scroll;
+    }
+    .relatetop{
+        width: 200px;
+        display: flex;
+       flex-direction: column;
+       font-size: 10px;
+        
+    }
+    .elon{
+        border: 2px solid black;
+        background-color: #355566;
+        color: aliceblue;
+        width: 200px;
+        height: 
+        300px;
+       
+        justify-content: center;
+        margin: 10px;
+        
+    }
+    .click{
+        margin-top: 150px;
+       margin-left: 50px;
+    }
+    
+
+}
